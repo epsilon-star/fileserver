@@ -1,0 +1,19 @@
+:root {
+  --color-back: #000;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+body {
+  background: var(--color-back);
+}
+body div {
+  color: red;
+}
+body div:hover {
+  color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */

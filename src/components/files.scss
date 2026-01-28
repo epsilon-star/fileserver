@@ -1,0 +1,21 @@
+$second : #449;
+$first : #000;
+
+:root {
+  --color-back: #000;
+}
+input[type='text'] {
+  &:focus {
+    outline: none;
+  }
+}
+
+body {
+  background: var(--color-back);
+    div {
+      color:red;
+      &:hover{
+        color:blue;
+      }
+    }
+}
